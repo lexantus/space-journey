@@ -3,7 +3,8 @@ import {
   Footer,
   Header,
   Discover,
-  Offers
+  Offers,
+  Infotext
 } from './components';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Discover />
       <Offers />
+      <Infotext />
       <Footer />
     </>
   );

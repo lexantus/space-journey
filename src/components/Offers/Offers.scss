@@ -10,7 +10,7 @@
 }
 
 .bg3 {
-  @include background-cover('./bg3.jpeg');
+  @include background-cover('./bg3_crop.jpeg');
 }
 
 .bg4 {
