@@ -1,0 +1,71 @@
+{
+  "h": {
+    "t": "Offers"
+  },
+  "offers": [
+    {
+      "id": "o1",
+      "h": {
+        "t": "Move the borders of reality!"
+      },
+      "p": {
+        "t": "Go on a space adventure - it's possible with us!"
+      },
+      "a": {
+        "t": "Learn more",
+        "ref": "/o1/more"
+      },
+      "bg": {
+        "cls": "bg1"
+      }
+    },
+    {
+      "id": "o2",
+      "h": {
+        "t": "Space is not just stars and planets"
+      },
+      "p": {
+        "t": "Go on a space adventure "
+      },
+      "a": {
+        "t": "Learn more",
+        "ref": "/o2/more"
+      },
+      "bg": {
+        "cls": "bg2"
+      }
+    },
+    {
+      "id": "o3",
+      "h": {
+        "t": "For those who dream of stars"
+      },
+      "p": {
+        "t": "Our offer: make your dream come true"
+      },
+      "a": {
+        "t": "Learn more",
+        "ref": "/o3/more"
+      },
+      "bg": {
+        "cls": "bg3"
+      }
+    },
+    {
+      "id": "o4",
+      "h": {
+        "t": "Fulfill your fantastic dreams"
+      },
+      "p": {
+        "t": "Space has never been so close"
+      },
+      "a": {
+        "t": "Learn more",
+        "ref": "/o4/more"
+      },
+      "bg": {
+        "cls": "bg4"
+      }
+    }
+  ]
+}

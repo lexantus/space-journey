@@ -1,0 +1,89 @@
+@import 'src/sass/Paddings';
+@import 'src/sass/Mixings';
+
+.bg1 {
+  @include background-cover('./bg1.jpeg');
+}
+
+.bg2 {
+  @include background-cover('./bg2.jpeg');
+}
+
+.bg3 {
+  @include background-cover('./bg3.jpeg');
+}
+
+.bg4 {
+  @include background-cover('./bg4.jpeg');
+}
+
+.offers-section {
+  padding: 20px $padding-lr-block;
+
+  .offers-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .offer {
+    &-content {
+      max-width: 634px;
+    }
+
+    width: calc(50% - 10px);
+
+    h1 {
+      font-size: 46px;
+      line-height: 46px;
+    }
+  }
+
+  .offer:first-child,
+  .offer:last-child {
+    width: 100%;
+
+    h1 {
+      font-size: 74px;
+      line-height: 74px;
+    }
+  }
+}
+
+.offer {
+  padding: 22px;
+  border-radius: 10px;
+}
+
+@include medium-screen {
+  .offers-section {
+    padding: 20px $padding-lr-md-block;
+
+    .offer,
+    .offer:first-child,
+    .offer:last-child {
+      h1 {
+        font-size: 40px;
+        line-height: 40px;
+      }
+    }
+
+    .offer:first-child,
+    .offer:last-child {
+      width: calc(50% - 10px);
+    }
+  }
+}
+
+@include small-screen {
+  .offers-section {
+    padding: 20px $padding-lr-sm-block;
+
+    .offer,
+    .offer:first-child,
+    .offer:last-child {
+      width: 100%;
+    }
+  }
+}

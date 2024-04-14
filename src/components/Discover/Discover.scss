@@ -1,0 +1,60 @@
+@import 'src/sass/Mixings';
+@import 'src/sass/Paddings';
+
+.discover-section {
+  background-image:
+    url('./earth.png'),
+    url('./universe.jpeg');
+  background-size: auto, cover;
+  background-repeat: no-repeat;
+  background-position: center right, top left;
+  padding: 171px $padding-lr-block;
+
+  &-content {
+    width: 693px;
+
+    p {
+      @include font-fallback('LatoBold');
+      font-size: 32px;
+      font-weight: 800;
+      line-height: 38.4px;
+      text-align: left;
+    }
+  }
+}
+
+@include medium-screen {
+  .discover-section {
+    background-position: 542px 26px, top left;
+    padding: 100px $padding-lr-md-block;
+
+    &-content {
+      width: 411px;
+
+      p {
+        font-size: 22px;
+        line-height: 26.4px;
+      }
+    }
+  }
+}
+
+@include small-screen {
+  .discover-section {
+    background-position: 16px -68px, top left;
+    background-size: 299.5px 336px, cover;
+    padding: 250px $padding-lr-sm-block;
+    padding-bottom: 40px;
+
+    &-content {
+      text-align: center;
+      width: 100%;
+
+      p {
+        text-align: center;
+        font-size: 22px;
+        line-height: 26.4px;
+      }
+    }
+  }
+}

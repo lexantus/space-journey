@@ -1,0 +1,15 @@
+{
+  "h1": {
+    "t": "Discover the vast expanses of",
+    "mark": "space"
+  },
+  "p": {
+    "t": "Where the possibilities are ",
+    "mark": {
+      "t": "endless!"
+    }
+  },
+  "button": {
+    "t": "Learn more"
+  }
+}

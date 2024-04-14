@@ -1,0 +1,84 @@
+@import 'Colors';
+@import 'Mixings';
+
+$button-border-radius: 100px;
+
+.fade {
+  opacity: $fade-opacity;
+}
+
+.mark-1 {
+  color: $color-accent-1;
+  background: none;
+}
+
+.mark-2 {
+  color: $color-accent-2;
+  background: none;
+}
+
+.ref {
+  @include font-fallback('LatoBold');
+  color: $color-accent-2;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: left;
+}
+
+.ref:hover {
+  opacity: $fade-opacity;
+}
+
+@include medium-screen {
+  .ref {
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+}
+
+@include small-screen {
+  .ref {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+}
+
+.button {
+  @include font-fallback('LatoBold');
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  display: inline-block;
+  padding: 14px 40px;
+  background-color: $color-accent-2;
+  color: $color-bg-2;
+  border: none;
+  border-radius: $button-border-radius;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:hover {
+  opacity: $fade-opacity;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button__outline {
+  display: inline-block;
+  padding: 14px 40px;
+  border: 2px solid $color-accent-2;
+  border-radius: $button-border-radius;
+  background-color: transparent;
+  color: $color-accent-2;
+  cursor: pointer;
+}
+
+.button__outline:hover {
+  opacity: $fade-opacity;
+}

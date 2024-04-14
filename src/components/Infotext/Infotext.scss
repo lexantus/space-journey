@@ -1,0 +1,28 @@
+@import 'src/sass/Paddings';
+@import 'src/sass/Mixings';
+
+.infotext-section {
+  padding: 20px $padding-lr-block;
+}
+
+@include medium-screen {
+  .infotext-section {
+    padding: 20px $padding-lr-md-block;
+
+    p {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+}
+
+@include small-screen {
+  .infotext-section {
+    padding: 20px $padding-lr-sm-block;
+
+    p {
+      font-size: 16px;
+      line-height: 19.2px;
+    }
+  }
+}

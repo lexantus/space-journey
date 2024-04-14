@@ -1,0 +1,13 @@
+@import 'sass/Colors';
+@import 'sass/Elements';
+@import 'sass/Fonts';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: $color-bg-1;
+  color: $color-text;
+}

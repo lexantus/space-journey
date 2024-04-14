@@ -1,0 +1,26 @@
+@mixin background-cover($image-path) {
+  background-repeat: no-repeat;
+  background-size: auto, cover;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(15, 20, 32, 0.79) 100%), url($image-path);
+}
+
+@mixin font-fallback($font-stack) {
+  font-family: $font-stack, sans-serif;
+}
+
+$breakpoints: (
+  small: 687px,
+  medium: 768px
+);
+
+@mixin small-screen {
+  @media only screen and (max-width: map-get($breakpoints, small)) {
+    @content;
+  }
+}
+
+@mixin medium-screen {
+  @media only screen and (max-width: map-get($breakpoints, medium)) {
+    @content;
+  }
+}
