@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/space-journey/static/css/main.f6c81f44.css",
-    "main.js": "/space-journey/static/js/main.ecfb93ad.js",
+    "main.css": "/space-journey/static/css/main.83fc06ed.css",
+    "main.js": "/space-journey/static/js/main.b1480c04.js",
     "static/js/453.4298593a.chunk.js": "/space-journey/static/js/453.4298593a.chunk.js",
-    "static/media/universe.jpeg": "/space-journey/static/media/universe.50c6137d00db9f5414b2.jpeg",
+    "static/media/universe_opt.jpeg": "/space-journey/static/media/universe_opt.f71368a0009a95ff114b.jpeg",
     "static/media/rocket.svg": "/space-journey/static/media/rocket.a4389852c90b9d43571cac86eea0e8ab.svg",
     "static/media/bg2.jpeg": "/space-journey/static/media/bg2.c03b39ecd0d2ec39d5e7.jpeg",
     "static/media/bg4.jpeg": "/space-journey/static/media/bg4.0327aa90a5733ae198ef.jpeg",
     "static/media/bg1.jpeg": "/space-journey/static/media/bg1.f49d31d245109229a306.jpeg",
-    "static/media/bg3.jpeg": "/space-journey/static/media/bg3.3a44c5be929be4919b67.jpeg",
+    "static/media/bg3_crop.jpeg": "/space-journey/static/media/bg3_crop.1ea3365db7e54fabf47c.jpeg",
     "static/media/earth.png": "/space-journey/static/media/earth.9e57b560290c63203892.png",
     "static/media/Lato-Regular.ttf": "/space-journey/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
     "static/media/Lato-Bold.ttf": "/space-journey/static/media/Lato-Bold.636be8de934918e38ed9.ttf",
@@ -16,12 +16,12 @@
     "static/media/cart_hover.svg": "/space-journey/static/media/cart_hover.130703b7b0cf9871648f.svg",
     "static/media/cart.svg": "/space-journey/static/media/cart.5fdc8f10c95015c32240.svg",
     "index.html": "/space-journey/index.html",
-    "main.f6c81f44.css.map": "/space-journey/static/css/main.f6c81f44.css.map",
-    "main.ecfb93ad.js.map": "/space-journey/static/js/main.ecfb93ad.js.map",
+    "main.83fc06ed.css.map": "/space-journey/static/css/main.83fc06ed.css.map",
+    "main.b1480c04.js.map": "/space-journey/static/js/main.b1480c04.js.map",
     "453.4298593a.chunk.js.map": "/space-journey/static/js/453.4298593a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6c81f44.css",
-    "static/js/main.ecfb93ad.js"
+    "static/css/main.83fc06ed.css",
+    "static/js/main.b1480c04.js"
   ]
 }
